@@ -20,7 +20,7 @@ header {
     background-position: center;
     background-attachment: fixed;
     background-position: 80%;
-    z-index: 9999;
+    z-index: 999999;
     color: #ffffff;
 }
 
@@ -46,8 +46,12 @@ header nav ul {
 
 header nav ul li {
     padding: 10px 15px;
+}
+
+header nav ul li a {
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 2vw;
+    color: #ffffff;
 }
 
 .hero {
@@ -79,20 +83,15 @@ header nav ul li {
     justify-content: center;
     margin-bottom: 20px;
     padding: 50px;
-    height: 600px;
+    height: 800px;
     border-radius: 15px;
     font-family: Helvetica;
     background-color: #81809e;
     color: #ffffff;
 }
-/* 
-#Projects {
-    display: flex;
-    justify-content: flex-start; */
-/* } */
 
 .content-group img {
-
+    flex-wrap: wrap;
     max-height: 200px;
 }
 
@@ -113,9 +112,14 @@ header nav ul li {
     padding: 15px;
 }
 
+ .buddy {
+    flex: 1 0 0;
+}
+
 .my-projects {
-    display: flex;
     margin: 100px;
+    z-index: 9999;
+    padding: 0;
 }
 
 .contact-section {
@@ -131,12 +135,19 @@ header nav ul li {
     justify-content: flex-start;
 }
 
-.icon-1 {
+.logo a {
     display: flex;
     justify-content: center;
     padding: 100px;
-    color: #325994  
+    color: #325994; 
+    font-size: 70px;
 }
+
+.logo a:hover {
+    color: darkslateblue;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 
 @media screen and (max-width: 980px) {
     header {
@@ -164,6 +175,11 @@ header nav ul li {
         justify-content: center;
         width: 100%;
         text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .my-projects {
+        margin: 0;
     }
 
 
