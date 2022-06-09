@@ -8,6 +8,7 @@ body {
     background-color: #f0efec;
 }
 
+/* Header section */
 header {
     font-family: Helvetica;
     display: flex;
@@ -54,6 +55,8 @@ header nav ul li a {
     color: #ffffff;
 }
 
+/* Hero section */
+
 .hero {
     height: 600px;
     width: 100%;
@@ -68,6 +71,7 @@ header nav ul li a {
     background-position: 80%;
 }
 
+/* Content section */
 
 .content {
     width: 90%;
@@ -121,6 +125,8 @@ header nav ul li a {
     z-index: 9999;
     padding: 0;
 }
+
+/* Contact section */
 
 .contact-section {
     margin-bottom: 20px;
