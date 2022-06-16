@@ -90,8 +90,8 @@ header nav ul li a {
     height: 800px;
     border-radius: 15px;
     font-family: Helvetica;
-    background-color: #81809e;
-    color: #ffffff;
+    background-color: #f0efec;
+    color: #050404;
 }
 
 .content-group img {
@@ -134,8 +134,8 @@ header nav ul li a {
     height: 300px;
     border-radius: 15px;
     font-family: Helvetica;
-    background-color: #81809e;
-    color: #ffffff;
+    background-color: #f0efec;
+    color: #050404;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
