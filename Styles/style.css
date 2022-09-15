@@ -48,6 +48,10 @@ a {
   color: #17a2b8;
 }
 
+a:hover {
+  color: #1b8494;
+}
+
 ul {
   list-style: none;
 }
@@ -129,6 +133,10 @@ h6 {
   padding: 10px;
 }
 
+#navigation li :hover {
+  color: #1b8494;
+}
+
 .dots-wrapper {
   display: flex;
   padding: 10px;
@@ -198,6 +206,7 @@ h6 {
 #skills {
   display: flex;
   justify-content: space-evenly;
+  border-radius: 5px 5px 5px 5px;
   background-color: var(--previewShadow);
 }
 
@@ -209,6 +218,12 @@ h6 {
 
 #social_img {
   width: 95%;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 10px -8px 18px 1px rgba(0, 0, 0, 0.75);
+}
+
+.social-links #social_img a :hover {
+  color: #1b8494;
 }
 
 .post-wrapper {
@@ -255,6 +270,7 @@ h6 {
   border-radius: 5px;
   background-color: var(--mainColor);
   margin-bottom: 50px;
+  box-shadow: 10px -8px 18px 1px rgba(0, 0, 0, 0.75);
 }
 
 #contact-form label {
@@ -281,9 +297,14 @@ h6 {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-radius: 5px 5px 5px 5px;
   color: #fff;
   background-color: var(--submitButton);
   border: none;
+}
+
+.submit-btn:hover {
+  background-color: #446b44;
 }
 
 @media screen and (max-width: 1200px) {
